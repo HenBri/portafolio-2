@@ -10,13 +10,13 @@
 <body>
   <a href="#main-content" class="skip-link" tabindex="0">Ir al contenido principal</a>
 
-  <header role="banner">
+  <header>
     <div class="profile">
       <img src="img/perfil.png" alt="Foto de perfil de Henry Aspeti" width="100" height="100" loading="lazy">
       <h1>Henry Aspeti - Desarrollador Full Stack</h1>
       <p>Ingeniero de Software Junior</p>
     </div>
-    <nav role="navigation" aria-label="Menú principal">
+    <nav aria-label="Menú principal">
       <ul>
         <li><a href="#sobre-mi" aria-current="page" tabindex="0">Conoce más sobre mí</a></li>
         <li><a href="#formacion" tabindex="0">Mi formación académica</a></li>
@@ -26,7 +26,7 @@
     </nav>
   </header>
 
-  <main id="main-content" role="main" tabindex="-1">
+  <main id="main-content" tabindex="-1">
     <section id="sobre-mi" aria-labelledby="sobre-mi-heading">
       <h2 id="sobre-mi-heading">Sobre mí</h2>
       <p>
@@ -47,7 +47,7 @@
 
     <section id="habilidades" aria-labelledby="habilidades-heading">
       <h2 id="habilidades-heading">Habilidades</h2>
-      <ul class="skills" role="list">
+      <ul class="skills">
         <li>HTML5</li>
         <li>CSS3</li>
         <li>JavaScript</li>
@@ -63,26 +63,26 @@
 
     <section id="proyectos" aria-labelledby="proyectos-heading">
       <h2 id="proyectos-heading">Proyectos</h2>
-      <div class="proyectos" role="list">
-        <article role="listitem">
+      <ul class="proyectos">
+        <li>
           <h3>Sistema de Gestión de Ventas (Tienda)</h3>
           <p>
             Un sistema que permite a las tiendas gestionar de forma eficiente sus finanzas, minimizando el trabajo manual y los errores humanos.
             Incluye un sistema de login por usuario para mejorar la seguridad, gestión de usuarios, clientes, categorías, productos, ventas y reportes.
           </p>
-        </article>
-        <article role="listitem">
+        </li>
+        <li>
           <h3>Sistema de Cuidado para Bomberos</h3>
           <p>
             Un sistema que utiliza una red hotspot para comunicar cuadrillas de bomberos de forma remota, asegurando su seguridad. 
             Envía alertas al equipo cuando un usuario se desconecta, garantizando la coordinación a distancia.
           </p>
-        </article>
-        <article role="listitem">
+        </li>
+        <li>
           <h3>Sistema de Deuda para Librerías</h3>
           <p>En desarrollo</p>
-        </article>
-      </div>
+        </li>
+      </ul>
     </section>
 
     <section id="contacto" aria-labelledby="contacto-heading">
@@ -105,7 +105,7 @@
     </section>
   </main>
 
-  <footer role="contentinfo">
+  <footer>
     <p>© 2025 Portafolio de Henry Aspeti | Desarrollado por Henry Aspeti | Todos los derechos reservados</p>
   </footer>
 </body>
